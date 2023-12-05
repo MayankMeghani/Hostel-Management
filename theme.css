@@ -1,0 +1,144 @@
+body{
+  background-color: rgba(255,193,118);
+}
+#div7{
+  height: 200px;
+  width: 500px;
+  color:brown;
+  background: white;
+  border: 1px solid violet;
+  border-radius: 12px;
+  
+  float: right;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(59, 48, 48);
+  color: white;
+  text-align: center;
+  
+  
+
+}
+.main{
+  display:flex;
+   flex-direction: row;
+}
+#dv1,#dv2,#dv5{
+   margin:20px;
+   display: inline;
+
+
+}
+#paragraph{
+  clear: right;
+}
+
+  /* Navbar container */
+.navbar {
+  height: 50px;
+  background-color: #333;
+  font-family: 'Courier New', monospace;
+  position: sticky;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 16px ;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  padding: 3px 0px;
+  text-decoration: none;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Courier New', monospace;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar  a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+.active{
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ .badge {
+   position: absolute;
+   top: -1px;
+   right: -10px;
+   padding: .5px 1px;
+   border-radius: 50%;
+   background-color: yellow;
+   color: black;
+ }
+ 
+ .notification {
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+ #navbar_l{
+  float: right;
+ } 
+ .footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(59, 48, 48);
+  color: white;
+  text-align: center;
+  
+  
+}
